@@ -110,6 +110,8 @@ for record in test_data:
     if (label == correct_label):
         score += 1
 
-print("Performance =", score / len(test_data))
+print("")
+print("Overall performance:", score / len(test_data))
+print("")
 
 input("Press ENTER to exit...")
