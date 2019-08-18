@@ -1,5 +1,5 @@
 # Simple Neural Network
-This is a simple Neural Network with one hidden layer and Backpropagation algorithm for image classification. As data source, the [MNIST](http://yann.lecun.com/exdb/mnist) database is used. This database contains 60.000 labeled examples of handwritten digits for training and 10.000 examples for testing the Neural Network.
+This is a simple Neural Network with one hidden layer and Backpropagation algorithm for image classification. As data source, the [MNIST](http://yann.lecun.com/exdb/mnist) database is used. This database contains 60.000 labeled examples of handwritten digits for training and 10.000 non-labeled examples for testing the Neural Network.
 
 **Goal:**
 The goal of the Neural Network is to detect digits within image data by learning from labeled examples.
@@ -12,7 +12,8 @@ Neuronale Netze selbst programmieren](https://www.oreilly.de/landing/12892.php).
 ```
 Training neural network with 60000 records ...
 Testing neural network with 10000 records ...
-Performance = 0.9523
+
+Overall performance = 0.9523
 Press ENTER to exit...
 ```
 
