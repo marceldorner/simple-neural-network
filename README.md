@@ -2,7 +2,7 @@
 This is a simple Neural Network with one hidden layer and Backpropagation algorithm for image classification. As data source, the [MNIST](http://yann.lecun.com/exdb/mnist) database is used. This database contains 60.000 labeled examples of handwritten digits for training and 10.000 non-labeled examples for testing the Neural Network.
 
 **Goal:**
-The goal of the Neural Network is to detect digits within image data by learning from labeled examples.
+The goal of the Neural Network is to detect digits within non-labeled image data by learning from labeled examples.
 ![Goal](https://github.com/marceldorner/simple-neural-network/blob/master/goal.png)
 
 The source code is based on an example of the book [
